@@ -1,0 +1,92 @@
+.attribution {
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: "Spartan";
+  color: hsl(300, 43%, 22%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.head {
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: auto;
+  font-weight: 700;
+}
+
+.tagline {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.rating {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  align-items: center;
+  background: hsl(300, 24%, 96%);
+}
+
+.rating .review {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.comments {
+  margin-top: 4rem;
+}
+
+.comment {
+  background: hsl(300, 43%, 22%);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.comment .people {
+  display: flex;
+  align-items: center;
+}
+
+.comment .people_text {
+  margin-left: 2rem;
+}
+
+.comment .people .people_avatar img {
+  border-radius: 100%;
+}
+
+.comment .people .people_text .people_name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.comment .people .people_text .people_type {
+  color: hsl(333, 80%, 67%);
+}
+
+.comment_text {
+  margin-top: 2rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  line-height: 1.5rem;
+}
