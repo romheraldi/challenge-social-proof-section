@@ -90,3 +90,62 @@ p {
   font-size: 15px;
   line-height: 1.5rem;
 }
+
+@media only screen and (min-width: 1440px) {
+  body {
+    padding: 3rem;
+  }
+  .jumbotron {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .jumbotron .jumbo_tag {
+    max-width: 50%;
+  }
+
+  .jumbotron .rate {
+    width: 50%;
+  }
+
+  .jumbotron .jumbo_tag .head {
+    font-size: 1.5rem;
+  }
+
+  .jumbotron .head,
+  .jumbotron .tagline {
+    text-align: left;
+  }
+
+  .jumbotron .jumbo_tag {
+  }
+
+  .rate {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rate .rating:nth-child(1) {
+    align-self: flex-start;
+  }
+  .rate .rating:nth-child(2) {
+    align-self: center;
+  }
+
+  .rate .rating:nth-child(3) {
+    align-self: flex-end;
+  }
+
+  .rating {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .rating .review {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+}
